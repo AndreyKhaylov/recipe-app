@@ -4,10 +4,10 @@ interface IRecipe {
     name?: string,
 }
 
-export const Recipe:FC<IRecipe> = ({ name = "appRecipe" }) => {
+export const Recipe:FC<IRecipe> = ({ name }) => {
     return (
-        <div>
+        <section>
             <h1>{name}</h1>
-        </div>
+        </section>
     );
 }
