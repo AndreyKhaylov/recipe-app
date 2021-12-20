@@ -1,7 +1,6 @@
-import React, {FC} from 'react';
+import React, { FC } from 'react';
 
-import { IngredientsList } from "./IngredientsList";
-import { Instructions } from "./Instructions";
+import { IngredientsList, Instructions } from "./";
 
 interface IRecipe {
     name?: string,

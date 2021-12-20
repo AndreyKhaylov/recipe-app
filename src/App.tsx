@@ -1,5 +1,5 @@
-import React, {FC} from 'react';
-import { Recipe } from './Recipe';
+import React, { FC } from 'react';
+import { Recipe } from './components';
 
 interface IApp {
     title: string,
