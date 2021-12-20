@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     name: 'Baked Salmon',
     ingredients: [
